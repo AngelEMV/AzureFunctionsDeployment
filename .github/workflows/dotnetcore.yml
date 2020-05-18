@@ -38,3 +38,6 @@ jobs:
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
         publish-profile: ${{ secrets.SCM_CREDENTIALS }}
 
+    - name: 'Use the published functionapp url in upcoming steps'
+      run: |
+        echo "${{ steps.fa.outputs.app-url }}"
