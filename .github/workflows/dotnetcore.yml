@@ -3,7 +3,7 @@ name: Deploy Function to Azure Function App Using Publish Profile
 on: push
 
 env:
-  AZURE_FUNCTIONAPP_NAME: function-app-86791
+  AZURE_FUNCTIONAPP_NAME: function-app-43014
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
   DOTNET_VERSION: '3.1.101'
 
